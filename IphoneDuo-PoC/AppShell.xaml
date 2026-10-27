@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="IphoneDuo_PoC.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:IphoneDuo_PoC"
+    Title="IphoneDuo_PoC">
+
+    <TabBar Shell.TabBarBackgroundColor="{StaticResource White}"
+            Shell.TabBarForegroundColor="{StaticResource Primary}"
+            Shell.TabBarTitleColor="{StaticResource Primary}"
+            Shell.TabBarUnselectedColor="{StaticResource Gray500}">
+        <Tab Title="Home" Icon="home.png">
+            <ShellContent
+                Title="Home"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                Route="MainPage" />
+        </Tab>
+        <Tab Title="Settings" Icon="settings.png">
+            <ShellContent
+                Title="Settings"
+                ContentTemplate="{DataTemplate local:SettingsPage}"
+                Route="SettingsPage" />
+        </Tab>
+        <Tab Title="Items" Icon="items.png">
+            <ShellContent
+                Title="Items"
+                ContentTemplate="{DataTemplate local:ItemsPage}"
+                Route="ItemsPage" />
+        </Tab>
+    </TabBar>
+
+</Shell>
