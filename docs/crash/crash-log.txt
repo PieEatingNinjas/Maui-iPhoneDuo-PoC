@@ -1,0 +1,3 @@
+2026-10-27 14:59:09.679520+0100 IphoneDuo-PoC[54106:471718] failure in void _UIApplicationEvaluateRuntimeIssueForNoSceneLifecycleAdoption(void)_block_invoke (UIApplication_RuntimeIssues.m:106) : Application failed to launch: UIScene life cycle is required for apps built with this SDK. See "Transitioning to the UIKit scene-based life cycle" in the UIKit documentation for more information on migration.
+
+The program 'IphoneDuo-PoC.dll' has exited with code 0 (0x0).
